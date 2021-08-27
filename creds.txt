@@ -1,2 +1,3 @@
-TOKEN: 
-APIKEY: 
+TOKEN: Njg3NzQxNTgzMzI3ODg3Mzk2.XmqLQw.qT3xNbM_iN9hptXxAZmbPNK26yc
+APIKEY: RGAPI-a5830508-9790-480c-b780-2f4dd16bfaaa
+SQL_Password: Nmsuaggies1
