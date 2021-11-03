@@ -23,6 +23,7 @@ TOKEN = f.readline().replace("TOKEN: ", "")
 client = discord.Client()
 APIKey = f.readline().replace("APIKEY: ", "")
 SQLPW = f.readline().replace("SQL_Password: ", "")
+f.close()
 
 #Gets a user's summoner ID given their IGN and the API key
 def getSummID(summonerName, APIKey):
@@ -417,4 +418,6 @@ async def on_ready():
    print('---------')
 def main():
     client.run(TOKEN)
-main()
+
+if __name__ == '__main__':
+    main()
